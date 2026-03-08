@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "veresiye"
+version = "1.0.0"
+description = ""
+authors = [
+  { name="Berk Acunas", email="info@deponessoft.com" },
+]
+requires-python = ">=3.10"
+
+# Requirements
+dependencies = [
+    "rapidocr-onnxruntime==1.4.4"
+]
+
+# Creating a Command Line Tool (CLI)
+# Which function should run when the user types 'veresiye' into the terminal?
+[project.scripts]
+turbo-tosec = "veresiye.main:main"
+
+# Pytest settings
+[tool.pytest.ini_options]
+pythonpath = "src"
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
