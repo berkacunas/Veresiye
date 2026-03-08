@@ -18,8 +18,8 @@ dependencies = [
 
 # Creating a Command Line Tool (CLI)
 # Which function should run when the user types 'veresiye' into the terminal?
-[project.scripts]
-turbo-tosec = "veresiye.main:main"
+#[project.scripts]
+#veresiye = "veresiye.main:main"
 
 # Pytest settings
 [tool.pytest.ini_options]
