@@ -13,7 +13,8 @@ requires-python = ">=3.10"
 
 # Requirements
 dependencies = [
-    "rapidocr-onnxruntime==1.4.4"
+    "rapidocr-onnxruntime==1.4.4",
+    "pydantic"
 ]
 
 # Creating a Command Line Tool (CLI)
