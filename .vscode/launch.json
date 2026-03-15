@@ -19,7 +19,7 @@
             "program":"${file}",
             "console":"integratedTerminal",
             "args": [
-                "/home/valjean/GitHub/berk/Veresiye/tests/data/migros-20250831_090053.jpg",
+                "/home/valjean/GitHub/berk/Veresiye/tests/data/sok-20250831_090235.jpg",
                 "--headless"
             ]
         },
