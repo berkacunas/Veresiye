@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"FSharp.suggestGitignore": false,
+		"github.copilot.enable": {
+			"*": true,
+			"plaintext": true,
+			"markdown": false,
+			"scminput": false
+		},
+		"terminal.integrated.gpuAcceleration": "off",
+		"git.ignoreLimitWarning": true
+	}
+}
